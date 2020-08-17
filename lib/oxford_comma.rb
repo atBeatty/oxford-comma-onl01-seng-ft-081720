@@ -6,6 +6,12 @@ def oxford_comma(array)
   if array.size == 2
     formatted_string = array.join(" and ")
   end
+  if array.size > 2
+    last_element = array.last
+    counter = 0
+    while counter < array.size - 1
+      formatted_string += array[counter]
+
 
 return formatted_string
 end
