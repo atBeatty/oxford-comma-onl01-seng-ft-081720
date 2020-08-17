@@ -11,6 +11,11 @@ def oxford_comma(array)
     counter = 0
     while counter < array.size - 1
       formatted_string += array[counter]
+      counter += 1
+    end
+    formatted_string << last_element
+  end
+  
 
 
 return formatted_string
