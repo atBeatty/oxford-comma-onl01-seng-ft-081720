@@ -7,5 +7,5 @@ def oxford_comma(array)
     formatted_string = array.join(",")
   end
 
-
+return formatted_string
 end
