@@ -4,7 +4,7 @@ def oxford_comma(array)
     formatted_string = array[0]
   end
   if array.size == 2
-    formatted_string = array.join(" and ")
+    formatted_string = array.join("and ")
   end
   if array.size > 2
     last_element = " and " + array.last
